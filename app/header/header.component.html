@@ -1,0 +1,9 @@
+<div class="first" style="background-color: black;height: 50px;color: white;">
+  Karandeep
+</div>
+
+<div class="second" style="background-color: gray;height: 30px;color: white;" *ngIf="secondHeaderCondition">
+  <button *ngIf="currentUrl != '/menu'" routerLink="/menu" >{{ 'Back' | translate}}</button>
+  <button (click)="logout()"  >{{ 'Logout' | translate}}</button>
+  Ajmani
+</div>
